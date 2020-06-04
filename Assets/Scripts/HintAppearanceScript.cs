@@ -19,7 +19,7 @@ public class HintAppearanceScript : MonoBehaviour
     
 
     public IEnumerator ReadTheHint(GameObject HintCanvasItem, float ShowingTimeSeconds) {
-        while (Vector3.Distance(mainPlayer.transform.position, transform.position) > 1f) {
+        while (Vector3.Distance(mainPlayer.transform.position, transform.position) > 2f) {
             yield return null;
         } 
 
